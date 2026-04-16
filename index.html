@@ -240,20 +240,11 @@
       position: relative;
     }
 
-    .card-badge {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      font-size: 10px;
-      font-family: var(--font-family-base);
-      font-weight: var(--font-weight-medium);
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 3px 8px;
-      border-radius: var(--radius-sm);
-      background: rgba(255, 122, 89, 0.15);
-      color: var(--color-accent-orange);
-      border: 0.5px solid rgba(255, 122, 89, 0.35);
+    .card-logo {
+      height: 28px;
+      width: auto;
+      max-width: 80%;
+      object-fit: contain;
     }
 
     .card-body {
@@ -282,13 +273,7 @@
       margin-top: 14px;
     }
 
-    .card-time {
-      font-size: 11px;
-      font-family: var(--font-family-base);
-      color: rgba(255, 255, 255, 0.28);
-    }
-
-    .card-arrow {
+.card-arrow {
       width: 22px;
       height: 22px;
       border-radius: 50%;
@@ -387,74 +372,48 @@
     </div>
   </section>
 
-  <!-- How-to Guides -->
+  <!-- Key Features -->
   <section class="guides">
     <div class="guides-header">
-      <h2 class="guides-title">How-to <em>guides</em></h2>
-      <span class="all-link">View all guides &rsaquo;</span>
+      <h2 class="guides-title">Key <em>features</em></h2>
     </div>
 
     <div class="guides-grid">
 
-      <!-- Card 1 -->
+      <!-- Card 1 — dhNegotiate -->
       <div class="card">
         <div class="card-thumb">
-          <span class="card-badge">Step 1</span>
-          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-            <rect x="8" y="8" width="28" height="28" rx="3" stroke="#3d7399" stroke-width="1"/>
-            <rect x="14" y="14" width="16" height="16" rx="2" fill="#ff7a59" opacity="0.65"/>
-            <line x1="22" y1="8" x2="22" y2="36" stroke="#3d7399" stroke-width="0.5" opacity="0.4"/>
-            <line x1="8" y1="22" x2="36" y2="22" stroke="#3d7399" stroke-width="0.5" opacity="0.4"/>
-          </svg>
+          <img src="https://abruno-dh.github.io/brand-assets/logos/dhneg-white.svg" alt="dhNegotiate" class="card-logo" />
         </div>
         <div class="card-body">
-          <p class="card-title">Setting up your deal workspace</p>
-          <p class="card-desc">Configure your organization, invite your team, and connect your first data sources.</p>
+          <p class="card-desc">End-to-end negotiation tracking that captures document versions, redlines, status, and execution context in real time — turning negotiation from a black box into a visible workflow.</p>
           <div class="card-foot">
-            <span class="card-time">4 min read</span>
             <div class="card-arrow">&rsaquo;</div>
           </div>
         </div>
       </div>
 
-      <!-- Card 2 -->
+      <!-- Card 2 — dhSign -->
       <div class="card">
         <div class="card-thumb">
-          <span class="card-badge">Step 2</span>
-          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-            <circle cx="22" cy="22" r="14" stroke="#3d7399" stroke-width="1"/>
-            <circle cx="22" cy="22" r="8" fill="#ff7a59" opacity="0.55"/>
-            <line x1="8" y1="22" x2="36" y2="22" stroke="#3d7399" stroke-width="0.5" opacity="0.45"/>
-            <line x1="22" y1="8" x2="22" y2="36" stroke="#3d7399" stroke-width="0.5" opacity="0.45"/>
-            <circle cx="22" cy="22" r="3" fill="#ffffff" opacity="0.75"/>
-          </svg>
+          <img src="https://abruno-dh.github.io/brand-assets/logos/dhsign-white.svg" alt="dhSign" class="card-logo" />
         </div>
         <div class="card-body">
-          <p class="card-title">Importing and structuring deal data</p>
-          <p class="card-desc">Bring in financials, documents, and CRM records — and see them organized automatically.</p>
+          <p class="card-desc">Automated signature coordination across parties, with real-time status tracking, execution compilation, and permanent access to signed documents — eliminating manual follow-ups and friction.</p>
           <div class="card-foot">
-            <span class="card-time">6 min read</span>
             <div class="card-arrow">&rsaquo;</div>
           </div>
         </div>
       </div>
 
-      <!-- Card 3 -->
+      <!-- Card 3 — dhDealBinder -->
       <div class="card">
         <div class="card-thumb">
-          <span class="card-badge">Step 3</span>
-          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-            <rect x="8" y="26" width="7" height="12" rx="1" fill="#3d7399" opacity="0.5"/>
-            <rect x="18" y="18" width="7" height="20" rx="1" fill="#3d7399" opacity="0.7"/>
-            <rect x="28" y="10" width="7" height="28" rx="1" fill="#ff7a59" opacity="0.8"/>
-            <line x1="6" y1="38" x2="38" y2="38" stroke="#3d7399" stroke-width="0.5" opacity="0.4"/>
-          </svg>
+          <img src="https://abruno-dh.github.io/brand-assets/logos/dealbinder-white.svg" alt="dhDealBinder" class="card-logo" />
         </div>
         <div class="card-body">
-          <p class="card-title">Reading your pipeline dashboard</p>
-          <p class="card-desc">Understand deal health scores, activity signals, and what to prioritize this week.</p>
+          <p class="card-desc">Automatic generation of complete, organized closing binders at deal close, removing hours of administrative work and reducing post-close errors.</p>
           <div class="card-foot">
-            <span class="card-time">5 min read</span>
             <div class="card-arrow">&rsaquo;</div>
           </div>
         </div>
